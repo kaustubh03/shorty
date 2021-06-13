@@ -1,0 +1,4 @@
+ZI-0000 - Successfull Request
+ZI-9001 - Failed Request
+ZI-9002 - Failed Request, JWT Not Generated Successfully
+ZI-9003 - Unauthorized Request. Token not Valid
