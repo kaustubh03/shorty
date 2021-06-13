@@ -1,0 +1,29 @@
+
+.uss_list{
+    width: 60%;
+    background: #17182a;
+    margin-top: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.uss_list ul{
+    overflow: auto;
+    height: 200px;
+    list-style: none;
+    width:100%;
+}
+.uss_list-headers{
+    margin-bottom:10px;
+}
+.uss_list-headers span{
+    font-weight: 700;
+}
+.uss_list ul li{
+    display: flex;
+    margin-top:5px
+}
+.uss_list ul li span{
+    flex: 1;
+}

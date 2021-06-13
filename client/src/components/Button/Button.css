@@ -1,0 +1,17 @@
+.uss_button button{
+    height: 50px;
+    border: none;
+    width: 100px;
+    color: #fff;
+    background: #bc8f12;
+    font-size: 22px;
+    letter-spacing: 1.8px;
+    cursor:pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uss_button button:hover{
+    background: #125cbc;
+}

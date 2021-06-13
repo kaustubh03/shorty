@@ -1,0 +1,94 @@
+.uss_home_header{
+    height: 300px;
+    padding: 12px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.uss_home_header h1{
+    font-size: 72px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin-bottom:18px
+}
+.uss_home_header h1 span{
+    font-weight: 300;
+    font-size: 52px;
+}
+
+.uss_home_header small{
+    font-size: 24px;
+    letter-spacing: 0.6px;
+}
+.uss_home_body{
+    width:100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.uss_home_body_input{
+    width:60%;
+    display: flex;
+    justify-content: center;
+}
+
+.uss_home_body_controls{
+    display: flex;
+    align-items: center;
+    margin-top:20px;
+}
+
+.uss_home_button-border-radius{
+    border-bottom-right-radius:5px;
+    border-top-right-radius:5px;
+}
+.uss_home_input-border-radius input[type='text']{
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.uss_home_expiry-date{
+    display:flex;
+    align-items: center;
+    margin-left:15px;
+    margin-right:15px;
+}
+.uss_home_expiry-date span.label{
+    color:#fff;
+    width:95px;
+}
+.uss_home_date-picker{
+    background:#fff;
+    border:none;
+    height: 45px;
+    width: 200px;
+}
+
+.uss_home_password{
+    margin-left:15px;
+}
+.uss_home_password input[type='password']{
+    height: 45px;
+    width: 200px;
+}
+
+.uss_message_pane{
+    width: 60%;
+    color: #fff;
+    margin-top: 20px;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #171628;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
